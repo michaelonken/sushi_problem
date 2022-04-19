@@ -1,0 +1,35 @@
+# Package name
+id: de.michael-onken.fhir.ig
+canonical: http://michael-onken.de/fhir/ig
+name: FHIR IG
+title: "FHIR IG"
+description: "IG demonstrating possible SUSHI problem."
+status: draft
+version: 0.0.1
+fhirVersion: 4.0.1
+copyrightYear: 2022+
+# https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters -> Parameter: releaselabel
+publisher:
+  name: Open Connections
+contact:
+  name: Open Connections
+  telecom:
+    system: url
+    value: https://www.open-connections.de/
+releaseLabel: test
+
+dependencies:
+
+  kbv.basis: 1.2.1
+  # de.basisprofil.r4: 0.9.13
+  # kbv.mio.tele: 1.0.0-kommentierung
+
+pages:
+  index.md:
+    title: Home
+  profiles.md:
+    title: Profiles
+  extensions.md:
+    title: Extensions
+  terminology.md:
+    title: Terminology
