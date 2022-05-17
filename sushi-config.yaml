@@ -21,8 +21,8 @@ releaseLabel: test
 dependencies:
 
   kbv.basis: 1.2.1
-  # de.basisprofil.r4: 0.9.13
-  # kbv.mio.tele: 1.0.0-kommentierung
+  de.basisprofil.r4: 0.9.13
+  kbv.mio.tele: 1.0.0-kommentierung
 
 pages:
   index.md:
